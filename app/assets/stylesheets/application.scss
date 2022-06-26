@@ -1,0 +1,52 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ table.pinkTable {
+    border: 4px solid #FF32EB;
+    background-color: #E456E8;
+    width: 400px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  table.pinkTable td, table.pinkTable th {
+    border: 1px solid #555555;
+    padding: 4px 4px;
+  }
+  table.pinkTable tbody td {
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+  table.pinkTable tr:nth-child(even) {
+    background: #FF79EF;
+  }
+  table.pinkTable td:nth-child(even) {
+    background: #FF79EF;
+  }
+  table.pinkTable tfoot {
+    font-weight: bold;
+    background: #FF7AF1;
+    border-top: 1px solid #444444;
+  }
+  table.pinkTable tfoot .links {
+    text-align: right;
+  }
+  table.pinkTable tfoot .links a{
+    display: inline-block;
+    background: #FFFFFF;
+    color: #BA8697;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
